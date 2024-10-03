@@ -1,0 +1,134 @@
+body{
+    font-family: "Permanent Marker", cursive ;
+    max-height: 2000vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+main{
+    width: 1000px;
+    max-height: 1900vh;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(167, 163, 163) ;
+}
+
+
+.ajoute{
+    display: flex;
+    flex-direction: column;
+}
+
+.ajoute button{
+    background-color: #2bada9;
+    color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    margin-bottom: 50px;
+
+}
+
+.ajoute h1{
+    font-size: 2rem;
+    margin: 20px 0 10px 0;
+}
+
+.ajoute p{
+    font-size: large;
+    color: #2bada9;
+    margin: 5px;
+}
+
+.ajoute input{
+    width: 100%;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin: 5px 0 5px 0;
+    font-size: 20px;
+}
+
+.affichage{
+    display: flex;
+    flex-direction: column;
+}
+
+.affichage h1{
+    font-size: 2rem;
+    margin: 50px 0 10px 0;
+}
+input:focus{
+    border-color: #2bada9;
+}
+
+.affichage input{
+    width: 99%;
+    height: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+}
+
+
+.task{
+    background-color: #2bada9;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+
+.task button{
+    margin-right: 25px;
+    color: rgb(255, 234, 1);
+    font-size: 1rem;
+    background-color: #2bada9;
+    cursor: pointer;
+    width: 25px;
+}
+
+.task p{
+    color: white;
+    margin-left: 10px;
+    cursor:default;
+}
+
+
+
+#clear{
+    background-color: #292424;
+    color: white;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    margin-bottom: 50px;
+}
+
+
+.done{
+    text-decoration: line-through;
+}

@@ -1,0 +1,73 @@
+.container{
+    width: 900px;
+    height: 700px;
+    margin: auto;
+}
+hr{
+    margin: 10px;
+}
+h1{
+    font-weight: 200;
+    margin: 10px;
+}
+
+form{
+    color: rgba(0, 0, 0, 0.726);
+
+}
+input{
+    border-radius: 2px;
+    border-width: 0.1cap;
+}
+
+
+
+
+.Name {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    margin: 10px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    gap: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.country{
+    gap: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.country select{
+    height: 25px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.726);
+}
+.accept{
+    gap: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.accept input{
+    cursor: pointer;
+}
+button{
+    margin: 0 10px 10px 10px;
+    height: 25px;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    cursor: pointer;
+}
